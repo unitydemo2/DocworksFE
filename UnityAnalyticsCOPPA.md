@@ -1,0 +1,12 @@
+# COPPA Compliance
+
+COPPA stands for the Children’s Online Privacy Protection Act (and related regulations).  COPPA includes certain obligations on operators of applications “directed to children under 13” (“Child Apps”). If you have questions about whether your application is a Child App or other aspects of COPPA, you should refer to materials made available by the U.S. Federal Trade Commission ((portions of which are available here: [COPPA FAQ](https://www.ftc.gov/tips-advice/business-center/guidance/complying-coppa-frequently-asked-questions)) and consult your own legal advisor.  
+
+Unity Analytics treats data collected from applications you have designated as a Child App differently from data collected from other applications.  If your application is a Child App, you need to designate it as such within the Editor service panel, via the Project creation process in the [Unity Ads publisher dashboard](https://dashboard.unityads.unity3d.com/) or via the Project overview page in the [Unity Ads publisher dashboard](https://dashboard.unityads.unity3d.com/).
+
+ In order to provide analytics for your games, Unity Analytics generates an anonymized user ID for each user in your game. We do not use any of these IDs generated from Child Apps to track users across apps built by other developers or to map users between different services, devices, or browsers on the same computer.  In addition to these IDs, Unity Analytics also collects the following personal information from Child App users: IP address, identifiers for advertisers (IDFA is only collected if Unity Ads is also enabled) and device identifiers (IDFV, Android device ID or IMEI if Android device ID is unavailable).
+
+Unity’s use of the personal information identified above is limited to providing app-level analytics for the application’s developer and analyzing and reporting anonymized and aggregate-level information about devices, apps and the game industry (for example, the percentage of devices using a certain operating system or the percentage of certain devices by regions).  This aggregate-level data contains no personal information.  Also, if you’ve enabled Unity Ads in a Child App, Unity may use information about a user collected by Unity Analytics from that Child App to serve contextual advertising within that Child App.
+
+---
+* <span class="page-edit">2017-08-29  <!-- include IncludeTextNewPageYesEdit --></span>

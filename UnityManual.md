@@ -1,4 +1,4 @@
-#Unity User Manual (5.6)
+#Unity User Manual (2018.1 beta)
 
 Use the Unity Editor to create 2D and 3D games, apps and experiences. (Download the Editor at [unity3d.com](http://unity3d.com/unity).) 
 
@@ -9,7 +9,7 @@ The Unity User Manual helps you learn how to use the Unity Editor and its associ
 
 **New**
 
-* Features introduced in 5.6: [What's New in 5.6](WhatsNew56)
+* Features introduced in 2018.1: [What's New in 2018.1](WhatsNew20181)
 * Upgrading Unity projects from older versions of Unity: [Upgrade Guide](UpgradeGuides)
 
 </div>
@@ -85,6 +85,14 @@ Audio in the Unity Editor, including clips, sources, listeners, importing and so
 Animation in the Unity Editor.
 
 </div>
+
+<div class="frontpage-section">
+[![Main.TimelineSection](../uploads/Main/StructTimeline.png)](TimelineSection)
+###[Timeline](TimelineSection)###
+Cinematics in the Unity Editor, including cut-scenes and game-play sequences.
+
+</div>
+
 
 <div class="frontpage-section">
 [![Main.UISystem](../uploads/Main/StructUI.jpg)](UISystem)

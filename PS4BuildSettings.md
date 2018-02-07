@@ -1,0 +1,31 @@
+#PS4 Build Settings  
+
+The Build Settings window allows you to choose your target platform, adjust settings for your build, and start the build process. This page details the Build Settings specific to PS4. For a description of the general Build Settings, see [Build Settings](https://docs.unity3d.com/Manual/BuildSettings.html) documentation.
+
+![](../uploads/Main/PS4BuildSettings-0.png)
+
+| Option| Purpose |
+|:---|:---| 
+| __Build Type__| |
+|&nbsp;&nbsp;&nbsp;&nbsp;PC Hosted | Files resulting from the build are stored on the local PC hard drive, and are streamed to the PS4 DevKit at runtime. Batch files to launch the application on the default DevKit are created in the build folder. Build times are faster with this option, and also the application doesn’t need to be installed before running, which can help with iteration times. However, due to streaming, scene and resource loading can be slower. When using __Build And Run__, the application is automatically launched on your default DevKit (which is set in [Neighborhood for Playstation 4](https://ps4.siedev.net/resources/documents/SDK/latest/Neighborhood_and_Utilities-Users_Guide/__document_toc.html)).|
+|&nbsp;&nbsp;&nbsp;&nbsp;PS4 Package | Build a [PS4 Application Package](https://ps4.siedev.net/resources/documents/Misc/current/Publishing_Tools-Overview/0003.html) file (.pkg). The generated package can be installed on a DevKit using [Neighborhood for Playstation 4](https://ps4.siedev.net/resources/documents/SDK/latest/Neighborhood_and_Utilities-Users_Guide/__document_toc.html). A [Package Generator](https://ps4.siedev.net/resources/documents/Misc/current/Package_Generator-Users_Guide/__document_toc.html) project file (.gp4) is generated in the Unity project Temp folder. This allows to use the Package Generator tool to customize your package. Note that the Temp folder is deleted when you close Unity Editor. Package creation and installation takes additional time compared to a PC Hosted build, but scene and resource loading is faster during runtime. Additionally, once a package has been installed you can run it directly from the DevKit home menu (without a host PC). This can be useful for QA, multiplayer testing and demonstrations. When using Build And Run, the package is installed onto your default DevKit (which is set in [Neighborhood for Playstation 4](https://ps4.siedev.net/resources/documents/SDK/latest/Neighborhood_and_Utilities-Users_Guide/__document_toc.html)) and launched.|
+|&nbsp;&nbsp;&nbsp;&nbsp;PS4 ISO | Create an [ISO image file](https://ps4.siedev.net/resources/documents/Misc/current/Publishing_Tools-Overview/0005.html) (.iso) with default settings. The corresponding Package Generator project file (.gp4) is included in the build folder for customization. |
+|__Hardware targeted__| This option sets the [Application Operation Mode](https://ps4.siedev.net/resources/documents/SDK/latest/Programming-Startup_Guide/0004.html).|
+|&nbsp;&nbsp;&nbsp;&nbsp;Base Only | Application is forced to run on Base Mode even on hardware compatible with Pro Mode. Note that this effectively turns the application into a non-Pro compatible one, which doesn’t satisfies SIE’s Technical Requirements. Therefore, this mode should be used only for development and testing.|
+|&nbsp;&nbsp;&nbsp;&nbsp;Pro and Base | Application is able to run in either Base or Pro mode. The actual mode is selected automatically according to the [Application Operation Mode](https://ps4.siedev.net/resources/documents/SDK/latest/Programming-Startup_Guide/0004.html) documentation. |
+|__Compress With PSArc__ | Compress your package for faster load times and smaller data sizes. May adversely affect streaming files (e.g. audio). Refer to the [PSArc documentation](https://ps4.siedev.net/resources/documents/SDK/4.500/PSARC-Users_Guide/__document_toc.html) for details. |
+|__Ignore Package Checks__ | When using "Build And Run" to run a PS4 Package, ignore package verification errors (which would fail SIE’s Technical Requirements), and run the application anyway. When unchecked, if errors are found during verification, the installation of the package will fail and you will get a build error in the Editor console. |
+| __Compress files in package__ | Activate file compression on packages. Results in smaller package sizes, but does not affect load or streaming times. See the [Enable File Compresssion](https://ps4.siedev.net/resources/documents/Misc/current/Package_Generator-Users_Guide/0004.html) feature of the Package Generator tool for details. |
+| __Explicit Null Checks__ | When enabled, unhandled [NullReferenceExceptions](https://msdn.microsoft.com/en-us/library/system.nullreferenceexception(v=vs.110).aspx) raised from managed script code are handled by Unity. An error log is produced (on Development Builds) and the application is allowed to continue running. If disabled, the application will crash on the event of an unhandled NullReferenceException. You would have to handle it from script code to avoid a crash. Disabling this option can result in slightly faster code execution. This option is forced to be always enabled on Development Builds.  |
+| __Divide By Zero Checks__ | When enabled, unhandled [DivideByZeroExceptions](https://msdn.microsoft.com/en-us/library/system.dividebyzeroexception(v=vs.110).aspx) raised from managed script code are handled by Unity. An error log is produced (on Development Builds) and the application is allowed to continue running. If disabled, the application will crash on the event of an unhandled DivideByZeroException. You would have to handle it from script code to avoid a crash. Disabling this option can result in slightly faster code execution. This option is forced to be always enabled on Development Builds.  |
+| __Scripts Only Build__| When checked, only script resources are rebuild, and all other Unity resources are reused from the previous build. This speeds up iteration when you are exclusively modifying scripts. This option is only available for Development Builds with the PC-Hosted build type. You can use it only after building your project at least once, so Unity resource files are already placed in your build folder. |
+
+----
+
+* <span class="page-edit">2017-05-15  <!-- include IncludeTextNewPageNoEdit --></span>
+
+* <span class="page-history">Compress files in package added in 5.6</span>
+
+
+
+

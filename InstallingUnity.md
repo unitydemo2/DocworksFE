@@ -91,7 +91,7 @@ sudo installer [-dumplog] -package Examples.pkg -target /
 ````
 
 
-<a name="#TorrentDownload"></a>
+<a name="TorrentDownload"></a>
 ## Torrent Download
 
 If you'd prefer to download Unity via a BitTorrent client, you can download get a torrent link from the [Unity download archive page](http://unity3d.com/get-unity/download/archive). Not all versions have a torrent download. If a version is available to download as a torrent, the option is presented as __Torrent download (Win+Mac)__ in the __Downloads__ dropdown menu.
