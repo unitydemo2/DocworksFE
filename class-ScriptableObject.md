@@ -1,0 +1,13 @@
+ScriptableObject
+================
+
+
+ScriptableObject is a class that allows you to store large quantities of shared data independent from script instances. Do not confuse this class with the similarly named SerializableObject, which is an editor class and fills a different purpose. Consider for example that you have made a prefab with a script which has an array of a million integers. The array occupies 4MB of memory and is owned by the prefab. Each time you instantiate that prefab, you will get a copy of that array. If you created 10 game objects, then you would end up with 40MB of array data for the 10 instances. 
+
+Unity serializes all primitive types, strings, arrays, lists, types specific to Unity such as Vector3 and your custom classes with the Serializable attribute as _copies_ belonging to the object they were declared in. This means that if you created a ScriptableObject and stored the million integers in an array it declares then the array will be stored with that instance. The instances are thought to own their individual data. ScriptableObject fields, or any _UnityEngine.Object_ fields, such as MonoBehaviour, Mesh, GameObject and so on, are stored by _reference_ as opposed to by value. If you have a script with a reference to the ScriptableObject with the million integers, Unity will only store a reference to the ScriptableObject in the script data. The ScriptableObject in turn stores the array. 10 instances of a prefab that has a reference to a ScriptableObject, that holds 4MB data, would total to roughly 4MB and not 40MB as discussed in the other example.
+
+The intended use case for using ScriptableObject is to reduce memory usage by avoiding copies of values, but you could also use it to define pluggable data sets. An example of this would be to imagine a NPC shop in a RPG game. You could create multiple assets of your custom ShopContents ScriptableObject, each defining a set of items that are available for purchase. In a scenario where the game has three zones, each zone could offer different tier items. Your shop script would reference a ShopContents object that defines what items are available. Please see the scripting reference for examples. 
+
+Once you have defined a ScriptableObject-derived class, you can use the [CreateAssetMenu](ScriptRef:CreateAssetMenuAttribute.html) attribute to make it easy to create custom assets using your class.
+
+Tip: When working with ScriptableObject references in the inspector, you can double click the reference field to open the inspector for your ScriptableObject. You can also create a custom Editor to define the look of the inspector for your type to help manage the data that it represents.

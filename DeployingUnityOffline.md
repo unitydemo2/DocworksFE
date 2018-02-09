@@ -1,12 +1,3 @@
-# Hello
-## Hello
-### Hello
-
-#Hello
-##Hello
-###Hello
-
-
 # Deploying Unity offline
 
 The Unity Download Assistant supports offline deployment. This allows you to download all the necessary files for installing Unity, and to generate a script for repeating the same installation on other computers without internet access.
@@ -26,9 +17,9 @@ Open your PC's file manager, navigate to the custom location folder you specifie
 
 ![](../uploads/Main/DeployingUnityOffline-installsh.png)
 
-## Deploying Unity to other computers
+##Deploying Unity to other computers
 
-### Windows
+###Windows
 
 1. Copy the entire folder to the target Windows PC, and run the supplied `.bat` file.
 1. To avoid the Windows UAC prompt, run `install.bat` from the Administrator shell. In the __Start__ menu, search for `cmd.exe`, right-click, and select __Run as administrator__.
