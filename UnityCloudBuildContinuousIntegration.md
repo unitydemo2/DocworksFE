@@ -1,5 +1,0 @@
-# Continuous integration
-
-The goal of continuous integration (CI) is to compile your project every time there is a change. This gives you the most accurate idea of when and where errors occur and ensures you always have a build of your game based on the last good commit. 
-
-__Unity Cloud Build__ connects to either [Unity Collaborate](UnityCollaborate) or your source control system, and monitors it for changes to your project. When it detects new changes, the system downloads your project and builds it for all of your target platforms. When builds finish, Unity Cloud Build emails you the results, along with links to download and install the completed builds. If there are errors, Unity Cloud Build informs you straight away, allowing you to quickly fix them, make a commit, and trigger new builds.
