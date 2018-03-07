@@ -1,4 +1,4 @@
-#New in Unity 5.6
+
 
 To find out about the new features, changes and improvements in this version, please see the [5.6 Release Notes](https://unity3d.com/unity/whats-new/unity-5.6.0).
 
