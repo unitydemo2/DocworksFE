@@ -39,3 +39,5 @@ Open your PC's file manager, navigate to the custom location folder you specifie
 Run `sudo install.sh`.
 1. Navigate to the folder with the scripts. This will usually be in your Downloads folder (`cd ~/Downloads/UnityPackages`).
 1. You can repeat these instructions as many times as you need to for each computer you wish to install Unity on.
+
+Hi Added on server
