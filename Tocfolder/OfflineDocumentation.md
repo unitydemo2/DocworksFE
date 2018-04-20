@@ -12,7 +12,7 @@ The zip file contains the most up-to-date version of the __Unity Manual__ and __
 
 ![Unity Scripting API (Scripting Reference)](../uploads/Main/OfflineDocumentationScriptRef.png)
 
-![abc](DevImages/unity.png)
+![abc](Images/DW5ad9ff02d63b6f120c534e3c.png)
 
 ![abc](Images/DW5a963922d2f2b83b4ce3e9c6.png)
 
