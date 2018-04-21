@@ -41,7 +41,7 @@ Run `sudo install.sh`.
 1. You can repeat these instructions as many times as you need to for each computer you wish to install Unity on.
 
 
-![abc](DevImages/unity.png)
+![abc](Images/DW5adacee58c6c05530418ee36.png)
 
 ![abc](Images/DW5a963922d2f2b83b4ce3e9c6.png)
 
