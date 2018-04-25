@@ -7,7 +7,6 @@ Unity Manual TOC
 		 - [OfflineDocumentation](OfflineDocumentation)
 		 - [WhatsNew56](WhatsNew56)
 		 - [ManualVersions](ManualVersions)
-		 - [Leave Feedback](LeaveFeedback)
 	 - [InstallingUnity](InstallingUnity)
 		 - [Deploying Unity Offline](DeployingUnityOffline)
 
