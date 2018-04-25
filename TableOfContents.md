@@ -1,6 +1,7 @@
 Unity Manual TOC
 ================
 
+ - [InstallingUnity](InstallingUnity)
  - [OfflineDocumentation](OfflineDocumentation)
  - [UnityManual](UnityManual)
 	 - [UnityManual](UnityManual_1)
@@ -8,5 +9,4 @@ Unity Manual TOC
 		 - [Switching between Unity versions](SwitchingDocumentationVersions)
 		 - [ManualVersions](ManualVersions)
 		 - [WhatsNew56](WhatsNew56)
-	 - [InstallingUnity](InstallingUnity)
 
