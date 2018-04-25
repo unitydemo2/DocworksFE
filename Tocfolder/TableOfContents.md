@@ -1,6 +1,7 @@
 Unity Manual TOC
 ================
 
+ - [Unity Manual](UnityManual)
  - [UnityManual](UnityManual)
 	 - [UnityManual](UnityManual_1)
 		 - [ManualVersions](ManualVersions)
