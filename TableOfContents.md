@@ -1,6 +1,7 @@
 Unity Manual TOC
 ================
 
+ - [Deploying Unity Offline](DeployingUnityOffline)
  - [UnityManual](UnityManual)
 	 - [Leave Feedback](LeaveFeedback)
 	 - [UnityManual](UnityManual_1)
@@ -9,5 +10,4 @@ Unity Manual TOC
 		 - [WhatsNew56](WhatsNew56)
 			 - [ManualVersions](ManualVersions)
 	 - [InstallingUnity](InstallingUnity)
-		 - [Deploying Unity Offline](DeployingUnityOffline)
 
