@@ -5,6 +5,8 @@ Unity Manual TOC
 	 - [UnityManual](UnityManual_1.md)
 		 - [ManualVersions](ManualVersions.md)
 		 - [Switching between Unity versions](SwitchingDocumentationVersions.md)
+			 - [Orphan3](Orphan3.md)
+				 - [OfflineDocumentation](OfflineDocumentation.md)
 		 - [WhatsNew56](WhatsNew56.md)
 		 - [Leave Feedback](LeaveFeedback.md)
 	 - [InstallingUnity](InstallingUnity.md)
