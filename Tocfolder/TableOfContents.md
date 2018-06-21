@@ -1,6 +1,9 @@
 Unity Manual TOC
 ================
 
+ - [NewFolder1](NewFolder1.md)
+	 - [childFolder2](childFolder2.md)
+	 - [childFolder1](childFolder1.md)
  - [UnityManual]()
 	 - [UnityManual Overview](UnityManual.md)
 	 - [UnityManual]()
