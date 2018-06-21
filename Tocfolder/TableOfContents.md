@@ -1,6 +1,8 @@
 Unity Manual TOC
 ================
 
+ - [NewFolder4](NewFolder4.md)
+	 - [NewFolder5](NewFolder5_3.md)
  - [NewFolder1](NewFolder1.md)
 	 - [childFolder2](childFolder2.md)
 	 - [childFolder1](childFolder1.md)
