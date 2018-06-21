@@ -7,7 +7,6 @@ Unity Manual TOC
 	 - [NewFolder5](NewFolder5_3.md)
  - [NewFolder1](NewFolder1.md)
 	 - [childFolder2](childFolder2.md)
-	 - [childFolder1](childFolder1.md)
  - [UnityManual]()
 	 - [UnityManual Overview](UnityManual.md)
 	 - [UnityManual]()
@@ -20,4 +19,5 @@ Unity Manual TOC
 	 - [InstallingUnity]()
 		 - [InstallingUnity Overview](InstallingUnity.md)
 		 - [Deploying Unity Offline](DeployingUnityOffline.md)
+	 - [childFolder1](childFolder1.md)
 
