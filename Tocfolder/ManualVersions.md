@@ -6,6 +6,7 @@
  With each Unity release, the Unity documentation changes to reflect this, so make sure you use the correct version of the User Manual and Scripting API Reference to match the version of Unity you're using. 
  The version of the documentation which accompanies the current full release of Unity is always available online at __[docs.unity3d.co__m](http://docs.unity3d.com/). 
 ### Installer (offline) documentation 
+ ![abc](Images/DW5a963922d2f2b83b4ce3e9c6_5bc093debc459726600cf264.png) 
  
  As well as using the online documentation, you can install it locally on your computer when you install the Unity software. Prior to Unity 5.3, the documentation was *always* installed along with the software. From version 5.3 onwards, you can choose whether to install the documentation locally via the [Unity Download Assistant](http://docs.google.com/InstallingUnity). 
 ### Documentation updates 
